@@ -5,7 +5,8 @@ Small business design and configuration of a network using cisco packet tracer. 
 ## Network Design
 - 1 router
 - 1 switch
-- 4 PCs
+- 3 PCs
+- 1 Server
 - 1 Network printer\
 see topology.png
 
