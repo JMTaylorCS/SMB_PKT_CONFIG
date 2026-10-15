@@ -10,9 +10,9 @@ Small business design and configuration of a network using cisco packet tracer. 
 see topology.png
 
 ## IP Addressing
-Router : '192.168.10.1'
-Printer : '192.168.10.10'
-Office PCs: DHCP: '192.168.100-199'
+- Router : '192.168.10.1'
+- Printer : '192.168.10.10'
+- Office PCs: DHCP: '192.168.100-199'
 
 ## Configuration
 - Configred IP addressing and DHCP
