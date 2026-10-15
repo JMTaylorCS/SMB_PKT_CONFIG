@@ -1,0 +1,9 @@
+Once Configuration has been completed test
+
+Testing Ping
+Using PC-Admin command prompt
+Ping router: ping 192.168.10.1
+Ping Printer: ping 192.168.10.10
+Ping another PC: ping 192.168.10.101
+
+See ping-test.png
