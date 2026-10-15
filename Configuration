@@ -1,1 +1,25 @@
+#Configuration of network
+##Router
 
+Router>enable\
+Router#conf term\
+Enter configuration commands, one per line.  End with CNTL/Z.\
+Router(config)#hostname OfficeRouter\
+OfficeRouter(config)#interface gig0/0\
+OfficeRouter(config-if)#ip address 192.168.10.1 255.255.255.0\
+OfficeRouter(config-if)#no shutdown\
+\
+OfficeRouter(config-if)#\
+%LINK-5-CHANGED: Interface GigabitEthernet0/0, changed state to up\
+\
+%LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/0, changed state to up\
+\
+OfficeRouter(config-if)#exit\
+OfficeRouter(config)#ip dhcp excluded-address 192.168.10.1 192.168.10.99\
+OfficeRouter(config)#ip dhcp excluded-address 192.168.10.200 192.168.10.254\
+OfficeRouter(config)#ip dhcp pool office-lan\
+OfficeRouter(dhcp-config)#network 192.168.10.0 255.255.255.0\
+OfficeRouter(dhcp-config)#default-router 192.168.10.1\
+OfficeRouter(dhcp-config)#dns-server 8.8.8.8\
+OfficeRouter(dhcp-config)#exit\
+OfficeRouter(config)#\
