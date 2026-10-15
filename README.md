@@ -7,7 +7,8 @@ Small business design and configuration of a network using cisco packet tracer. 
 - 1 switch
 - 4 PCs
 - 1 Network printer\
-\see topology.png
+\
+see topology.png
 
 ## IP Addressing
 Router : '192.168.10.1'\
