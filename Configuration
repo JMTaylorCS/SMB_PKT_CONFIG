@@ -23,7 +23,8 @@ OfficeRouter(dhcp-config)#network 192.168.10.0 255.255.255.0
 OfficeRouter(dhcp-config)#default-router 192.168.10.1
 OfficeRouter(dhcp-config)#dns-server 8.8.8.8
 OfficeRouter(dhcp-config)#exit
-OfficeRouter(config)#
+OfficeRouter(config)#end
+OfficeRouter#copy running-config startup-config
 
 PC-Admin:
 Click PC, desktop, Ip Config select DHCP and wait for automatic assignment
